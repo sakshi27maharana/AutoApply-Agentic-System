@@ -110,7 +110,7 @@ async def main_async():
 
     applied_jobs = await apply_to_jobs_async(job_urls)
 
-    send_email_summary("asparklinsoul@gmail.com", applied_jobs)
+    send_email_summary("YOUR-RECEIVER-EMAIL-ID", applied_jobs)
 
 if __name__ == "__main__":
     try:
